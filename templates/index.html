@@ -27,7 +27,19 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="../static/images/avatar.jpg" alt="" /></span>
+							<!-- Updated Avatar Section with Hover and Image Credit -->
+							<span class="avatar">
+								<div class="image-container">
+									<img src="../static/images/avatar.jpg" alt="John Pork" class="avatar-img" />
+									<div class="hover-text">John Pork Is Calling... 📞</div>
+								</div>
+								<!-- Tiny Instagram Credit Link Below the Image -->
+								<div style="margin-top: 0.5rem;">
+									<a href="https://www.instagram.com/john.pork/" target="_blank" style="font-size: 0.75rem; opacity: 0.6; text-decoration: none; border-bottom: none;">
+										Image credit: @john.pork
+									</a>
+								</div>
+							</span>
 							<h1><b>John Pork</b></h1>
 							<p>Founder and CEO of IsCalling Org.</p>
 							<p>Possesses a jaw-dropping food intake speed of 0.67 Big Macs/Fahrenheit</p>
@@ -78,14 +90,18 @@
 						<hr />
 					</section>
 
-				<!-- Footer -->
+					<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
 							<li>&copy; An Huynh</li>
 							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
+						<!-- Professional Hobby Disclaimer -->
+						<p style="font-size: 0.75rem; opacity: 0.6; margin-top: 1rem; line-height: 1.4;">
+							This is a fan-made hobby project for educational purposes. <br />
+							John Pork is a fictional character owned by his respective creators.
+						</p>
 					</footer>
-
 			</div>
 
 		<!-- Scripts -->
@@ -97,6 +113,6 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
-
+	
 	</body>
 </html>
